@@ -16,7 +16,7 @@ public class WiFiDiagnosis
         Scanner reader = new Scanner(System.in);
         System.out.println("This is a Wifi diagnostic program, this program might help with your wifi problem");
 
-        for (int i =0; i<4 ; i++)
+        for (int i =0; i<=4 ; i++)
         {
             System.out.print(b[i]+a);
             String input = reader.nextLine();
@@ -24,6 +24,10 @@ public class WiFiDiagnosis
             {
                 System.out.print(b[i]+" seems to work");
                 break;
+            }
+            if (i ==4)
+            {
+                System.out.print(b[i]);
             }
         }
         reader.close();
