@@ -26,7 +26,6 @@ public class WiFiDiagnosis
                 break;
             }
         }
-        System.out.print(b[4]);
         reader.close();
     }
 }
