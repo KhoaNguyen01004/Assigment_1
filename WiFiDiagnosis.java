@@ -6,7 +6,7 @@ public class WiFiDiagnosis
     public static void main(String[] args)
     {
         //These variables contain prompts that could ask the user to diagnostic wifi
-        String a = "\nAre you able to connect with the internet? (yes or no)\n";
+        String a = "\nAre you able to  connect with the internet? (yes or no)\n";
         String[] b ={"First step: reboot your computer", 
                     "Second step: reboot your router",
                     "Third step: make sure the cables to your router are plugged in firmly and your router is getting power",
