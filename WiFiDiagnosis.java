@@ -1,5 +1,17 @@
-import java.util.Scanner;
+/*
+ * Class: CMSC203 
+ * Instructor: Khandan Vahabzadeh Monshi
+ * Description: the WiFiDiagnosis class use to run the main program
+ * Due: 2/02/2021
+ * Platform/compiler: Eclipse
+ * I pledge that I have completed the programming assignment independently.
+   I have not copied the code from a student or any source.
+   I have not given my code to any student.
+   Print your Name here: Kevin Nguyen
+*/
+                                                                //DO NOT CREATE A PULL AND PUSH YET
 
+import java.util.Scanner;
 
 public class WiFiDiagnosis
 {
@@ -27,6 +39,7 @@ public class WiFiDiagnosis
                 break;
             }
         }
+        //This is when the internet is still not working after tries many steps
         if (i ==4)
         {
             System.out.print(b[i]);
