@@ -10,7 +10,7 @@
    Print your Name here: Kevin Nguyen
 */
 
-
+                                                //Should not use string in this assignment
 import java.util.Scanner;
 
 public class WiFiDiagnosis
